@@ -3,4 +3,11 @@
   <p><strong><i>Plugins that extend the functionality of discord Modmail</i></strong></p>
 </div>
 
+# Commands
+* ghuserinfo
+* orginfo
+* commitinfo
+* issueinfo
+* repoinfo
 
+Logo credits: @papiersnipper
