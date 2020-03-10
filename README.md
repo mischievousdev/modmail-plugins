@@ -11,4 +11,6 @@
 * issueinfo
 * repoinfo
 
+More commands comming!
+
 Logo credits: @papiersnipper
