@@ -9,11 +9,11 @@ class VoiceLink(commands.Cog):
     async def join(self, ctx, vcid: int):
         if ctx.author.id == 187588641256636416:
             if ctx.voice_client is not None:
+                await ctx.voice_client.disconnect()
                 vc = self.bot.get_channel(vcid)
                 await vc.connect()
                 await ctx.send("Done")
             else:
-                await ctx.voice_client.disconnect()
                 vc = self.bot.get_channel(vcid)
                 await vc.connect()
                 await ctx.send("Done")
